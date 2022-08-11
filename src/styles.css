@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 20px;
+background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header{
+    width: 100%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+    background-color: beige;
+    border-radius: 70%;
+    margin: 20px;
+}
+
+.cajaTitulo{
+    background-color: beige;
+}
+
+.tableInfo{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 10%;
+    padding: 20px 50px;
+}
+
+.tituloBuscador{
+    color: #f7797d;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+}
+
+.buscador{
+   display: flex;
+   justify-content: space-evenly; 
+}
+
+.tituloResultados{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: center;
+}
+
+.resultados{
+    width:350px;
+    height:250px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    border:solid 3px black;
+        
+}
